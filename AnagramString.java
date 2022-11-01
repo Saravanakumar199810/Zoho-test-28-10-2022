@@ -4,9 +4,9 @@ public class AnagramString {
 
 	public static void main(String[] args) {
 		String str = "abba";
-//	String str = "abcd";
-
-		System.out.println(new AnagramString().numberOfPairs(str));
+//		String str = "abcd";
+		AnagramString anagram = new AnagramString();
+		System.out.println(anagram.numberOfPairs(str));
 
 	}
 
